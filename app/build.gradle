@@ -82,7 +82,7 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
 
 // Navigation Components
-    def navVersion = "2.4.2"
+    def navVersion = "2.5.2"
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
 
