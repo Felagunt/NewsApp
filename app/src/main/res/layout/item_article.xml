@@ -11,6 +11,7 @@
         android:id="@+id/article_image"
         android:layout_width="84dp"
         android:layout_height="84dp"
+        android:background="@drawable/bg_image_10"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -43,7 +44,7 @@
             android:textColor="@color/garyBlack"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:textFontWeight="700"
+            app:fontWeight="700"
             tools:text="@string/musk_invited_to_uk_parliament_to_discuss_44_billion_twitter_buyout"/>
 
     </LinearLayout>
