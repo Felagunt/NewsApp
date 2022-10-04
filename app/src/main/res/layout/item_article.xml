@@ -23,9 +23,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@id/article_image"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/article_image">
+        >
 
         <TextView
             android:id="@+id/article_date"
@@ -34,7 +35,6 @@
             android:textColor="@color/garyBlack"
             android:textSize="12sp"
             tools:text="thu_apr_19_20_00_pm"/>
-            //android:text="@string/thu_apr_19_20_00_pm"/>
 
         <TextView
             android:id="@+id/article_title"
