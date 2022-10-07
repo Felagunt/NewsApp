@@ -6,5 +6,6 @@
     <string name="search">Search</string>
     <string name="descriptions">Descriptions:</string>
     <string name="visit_site">Visit site</string>
+    <string name="favorite_news">Favorite news</string>
 
 </resources>
